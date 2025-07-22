@@ -10,7 +10,7 @@ const Card = ({ player, selected, setSelected, balance, setBalance }) => {
             setBalance(newBalance);
             toast('You Seleected Player')
         }
-        if (balance <= player.price) {
+        if (balance <= player.price && !selected.includes(player)) {
             toast.error('Insufficient Balance!', {
                 position: "top-center",
                 autoClose: 5000,

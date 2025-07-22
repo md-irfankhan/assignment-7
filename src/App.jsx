@@ -7,6 +7,7 @@ import Nav from './components/Nav/Nav'
 import Tab from './components/Tab/Tab'
 import Card from './components/Card/Card'
 import { ToastContainer, Bounce } from 'react-toastify';
+import Selected from './components/Selected/Selected'
 function App() {
   const [tab, setTab] = useState(true);
   const [players, setPlayers] = useState([]);
@@ -21,12 +22,19 @@ function App() {
 
       <Nav balance={balance}></Nav>
       <Header setBalance={setBalance} balance={balance}></Header>
-      <Tab tab={tab} setTab={setTab}></Tab>
+      <Tab tab={tab} slength={selected.length} plength={players.length} setTab={setTab}></Tab>
       <div className='max-w-[1250px] mx-auto grid md:grid-cols-3 gap-5'>
         {
-          players.map(player => <Card  balance={balance} setBalance={setBalance} selected={selected} setSelected={setSelected} player={player}></Card>)
+         tab && players.map(player => <Card  balance={balance} setBalance={setBalance} selected={selected} setSelected={setSelected} player={player}></Card>)
         }
       </div>
+
+       <ul className="list max-w-[1250px] mx-auto  rounded-box ">
+          {tab || selected.map(selected=><Selected selected={selected}></Selected>)}
+
+        </ul>
+
+      
 
       <ToastContainer position="top-center"
         autoClose={5000}

@@ -6,7 +6,7 @@ const Header = ({ setBalance, balance }) => {
         let newBalance = parseInt(balance) + 600000;
         setBalance(newBalance)
 
-        toast.success(`Congratulation! You have credited ${newBalance}`, {
+        toast.success(`Congratulation! You have credited ${600000} and balance ${newBalance}`, {
             position: "bottom-right",
             autoClose: 5000,
             hideProgressBar: false,
