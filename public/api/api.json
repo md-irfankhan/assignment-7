@@ -3,7 +3,7 @@
     {
       "id": 1,
       "player_name": "Virat Kohli",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Virat_Kohli_2018.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg/250px-Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg",
       "player_country": "India",
       "rating": 95,
       "which_handed": "Right-handed",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "player_name": "Joe Root",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Joe_Root_wb.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Joe_Root_HIP1487_%28cropped%29.jpg/250px-Joe_Root_HIP1487_%28cropped%29.jpg",
       "player_country": "England",
       "rating": 90,
       "which_handed": "Right-handed",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "player_name": "Kane Williamson",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Kane_Williamson_April_2019.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kane_Williamson.jpg/250px-Kane_Williamson.jpg",
       "player_country": "New Zealand",
       "rating": 89,
       "which_handed": "Right-handed",
@@ -33,7 +33,7 @@
     {
       "id": 4,
       "player_name": "Babar Azam",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Babar_Azam.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Babar_azam_2023.jpg/250px-Babar_azam_2023.jpg",
       "player_country": "Pakistan",
       "rating": 88,
       "which_handed": "Right-handed",
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "player_name": "Steve Smith",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Steve_Smith_in_2018.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/STEVE_SMITH_%2811705303043%29.jpg/250px-STEVE_SMITH_%2811705303043%29.jpg",
       "player_country": "Australia",
       "rating": 92,
       "which_handed": "Right-handed",
@@ -53,7 +53,7 @@
     {
       "id": 6,
       "player_name": "Rohit Sharma",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Rohit_Sharma_2018.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg/250px-Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg",
       "player_country": "India",
       "rating": 90,
       "which_handed": "Right-handed",
@@ -63,7 +63,7 @@
     {
       "id": 7,
       "player_name": "Ben Stokes",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ben_Stokes_August_2021.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/BEN_STOKES_%2811704837023%29_%28cropped%29.jpg/250px-BEN_STOKES_%2811704837023%29_%28cropped%29.jpg",
       "player_country": "England",
       "rating": 90,
       "which_handed": "Right-handed",
@@ -73,7 +73,7 @@
     {
       "id": 8,
       "player_name": "AB de Villiers",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/AB_de_Villiers.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/AB_de_Villiers_3.jpg/250px-AB_de_Villiers_3.jpg",
       "player_country": "South Africa",
       "rating": 94,
       "which_handed": "Right-handed",
@@ -83,7 +83,7 @@
     {
       "id": 9,
       "player_name": "Kagiso Rabada",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kagiso_Rabada_2015.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rabada.jpg/250px-Rabada.jpg",
       "player_country": "South Africa",
       "rating": 87,
       "which_handed": "Right-handed",
@@ -93,7 +93,7 @@
     {
       "id": 10,
       "player_name": "Rashid Khan",
-      "player_image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rashid_Khan.jpg",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rashid_Khan.jpg/250px-Rashid_Khan.jpg",
       "player_country": "Afghanistan",
       "rating": 85,
       "which_handed": "Right-handed",
