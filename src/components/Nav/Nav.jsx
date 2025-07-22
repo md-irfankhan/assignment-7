@@ -3,8 +3,8 @@ import Logo from '../../assets/logo.png'
 import Header from '../Header/Header';
 const Nav = ({balance}) => {
     return (
-        <div className='max-w-[1250px] mx-auto'>
-            <div className="navbar bg-base-100 ">
+        <div className='max-w-[1250px] mx-auto sticky bg-none top-0 z-10'>
+            <div className="navbar bg-base-100/[0.5] backdrop-blur-md ">
                 <div className="flex-1">
                     <a className=" text-xl"><img className='h-[50px]' src={Logo} alt="" /></a>
                 </div>
