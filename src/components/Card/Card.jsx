@@ -42,7 +42,7 @@ const Card = ({player}) => {
                 </div>
                 <div className='flex justify-between items-center'>
                     <div>
-                        <p className='sora font-bold'>Price: <span className='sora font-normal'>{price}</span></p>
+                        <p className='sora font-bold'>Price: <span className='sora font-normal'>{price} BDT</span></p>
                         
                     </div>
                     <div>

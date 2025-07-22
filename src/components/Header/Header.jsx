@@ -1,8 +1,11 @@
 import Banner from '../../assets/banner-main.png'
 import Shadow from '../../assets/bg-shadow.png'
 
-const Header = () => {
-    
+const Header = ({setBalance,balance}) => {
+    const handleCredit=()=>{
+        let newBalance=balance+6000000 ;
+        setBalance(newBalance)
+    }
     return (
       
             <div
@@ -25,7 +28,7 @@ const Header = () => {
                         <p className="mb-5 sora opacity-[0.7]">
                             Beyond Boundaries Beyond Limits
                         </p>
-                        <button className="border rounded-2xl p-[8px] border-[#E7FE29]"><button className='bg-[#E7FE29] py-[14px] sora font-bold rounded-2xl text-black px-[20px] inset-shadow-xs'>Claim Free Credit</button></button>
+                        <button className="border rounded-2xl p-[8px] border-[#E7FE29]"><button className='bg-[#E7FE29] py-[14px] sora font-bold rounded-2xl text-black px-[20px] inset-shadow-xs' onClick={handleCredit}>Claim Free Credit</button></button>
                     </div>
                 </div>
             </div>
