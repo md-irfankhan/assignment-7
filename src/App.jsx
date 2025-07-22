@@ -30,7 +30,7 @@ function App() {
       </div>
 
        <ul className="list max-w-[1250px] mx-auto  rounded-box ">
-          {tab || selected.map(selected=><Selected selected={selected}></Selected>)}
+          {tab || selected.map(select=><Selected balance={balance} setBalance={setBalance} setSelected={setSelected} selected={selected} select={select}></Selected>)}
 
         </ul>
 
