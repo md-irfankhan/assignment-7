@@ -8,6 +8,7 @@ import Tab from './components/Tab/Tab'
 import Card from './components/Card/Card'
 
 function App() {
+   const [tab,setTab]=useState(true);
    const [players,setPlayers]=useState([]);
    const [balance,setBalance]=useState(600000);
    useEffect(()=>{
@@ -18,7 +19,7 @@ function App() {
     <>
      <Nav balance={balance}></Nav>
      <Header setBalance={setBalance} balance={balance}></Header>
-     <Tab></Tab>
+     <Tab tab={tab} setTab={setTab}></Tab>
      <div className='max-w-[1250px] mx-auto grid md:grid-cols-3 gap-5'>
         {
           players.map(player=><Card player={player}></Card>)
