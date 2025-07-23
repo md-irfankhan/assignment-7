@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Banner from '../../assets/banner-main.png'
 import Shadow from '../../assets/bg-shadow.png'
 import {  toast, Bounce } from 'react-toastify';
@@ -49,5 +50,9 @@ const Header = ({ setBalance, balance }) => {
 
     );
 };
+Header.propTypes={
+    balance:PropTypes.string,
+    setBalance:PropTypes.func
+}
 
 export default Header;

@@ -1,4 +1,5 @@
 
+import PropTypes from 'prop-types';
 import { FaFlag } from 'react-icons/fa';
 import {  toast, Bounce } from 'react-toastify';
 const Card = ({ player, selected, setSelected, balance, setBalance }) => {
@@ -92,5 +93,12 @@ const Card = ({ player, selected, setSelected, balance, setBalance }) => {
         
     );
 };
+Card.propTypes={
+    player:PropTypes.object,
+    selected:PropTypes.array,
+    setSelected:PropTypes.func,
+    balance:PropTypes.string,
+    setBalance:PropTypes.func
+}
 
 export default Card;

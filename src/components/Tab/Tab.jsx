@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const Tab = ({tab,setTab,slength,plength}) => {
     const AreaLabel=`Selected(${slength})`
     const Label =`Selected Player(${plength}/${slength})`
@@ -15,5 +16,10 @@ const Tab = ({tab,setTab,slength,plength}) => {
         </div>
     );
 };
-
+Tab.propTypes={
+    tab:PropTypes.bool,
+    setTab:PropTypes.func,
+    slength:PropTypes.string ,
+    plength:PropTypes.string
+}
 export default Tab;

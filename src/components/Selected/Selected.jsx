@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import { MdDeleteForever } from 'react-icons/md';
 import {  toast, Bounce } from 'react-toastify';
 const Selected = ({ select,selected ,setSelected,balance,setBalance}) => {
@@ -43,5 +43,13 @@ const Selected = ({ select,selected ,setSelected,balance,setBalance}) => {
 
     );
 };
+
+Selected.propTypes={
+    select :PropTypes.object,
+    selected:PropTypes.array,
+    setSelected:PropTypes.func,
+    balance:PropTypes.string,
+    setBalance:PropTypes.func
+}
 
 export default Selected;

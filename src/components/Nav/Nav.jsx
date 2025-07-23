@@ -1,6 +1,6 @@
 import { TbCoin } from 'react-icons/tb';
 import Logo from '../../assets/logo.png'
-import Header from '../Header/Header';
+import PropTypes from 'prop-types';
 const Nav = ({balance}) => {
     return (
         <div className='max-w-[1250px] mx-auto sticky bg-none top-0 z-10'>
@@ -31,5 +31,8 @@ const Nav = ({balance}) => {
         
     );
 };
+Nav.propTypes={
+    balance:PropTypes.object
+}
 
 export default Nav;
