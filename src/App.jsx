@@ -8,6 +8,7 @@ import Tab from './components/Tab/Tab'
 import Card from './components/Card/Card'
 import { ToastContainer, Bounce } from 'react-toastify';
 import Selected from './components/Selected/Selected'
+import Footer from './components/Footer/Footer'
 function App() {
   const [tab, setTab] = useState(true);
   const [players, setPlayers] = useState([]);
@@ -34,7 +35,7 @@ function App() {
 
         </ul>
 
-      
+      <Footer></Footer>
 
       <ToastContainer position="top-center"
         autoClose={5000}
